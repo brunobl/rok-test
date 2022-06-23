@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  font: normal normal bold 58px/43px Asap;
+  padding: 10px 0px;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: normal normal bold 38px/43px Asap;
+}
+
+body {
+  font-family: Asap;
+  background: #16171b 0% 0% no-repeat padding-box;
+}
+
+footer {
+  font-family: Krub;
+  background: #202125 0% 0% no-repeat padding-box;
+}
+
+.date {
+  font-family: normal normal normal 13px/18px Krub !important;
+}
+
+/******* MAP ******/
+.leaflet-container {
+  height: 400px;
+  margin: 40px auto;
+}
+
+.leaflet-popup-content a {
+  text-transform: capitalize;
+}
+
+/******* PRODUCT PAGE ******/
+
+.top-100 {
+  top: 100%;
+}
+.bottom-100 {
+  bottom: 100%;
+}
+.max-h-select {
+  max-height: 300px;
+}
+
+.modal {
+  transition: opacity 0.25s ease;
+}
+
+.description-tabs > p {
+  line-height: 1.625;
+}
+
+/******* NAVBAR *******/
+@keyframes floating{
+  from{
+    margin-top: -700px;
+  }
+  to{
+    margin-top: 0px;
+  }
+}  
+
+.header-visible{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  animation: floating 0.5s;
+  display: block;
+  margin-top: 0px;
+}
+
+.header-hidden{
+  display: none;
+}
+
+@keyframes floating-selector-menu{
+  from{
+    height: 0%;
+  }
+  to{
+    height: 100%;
+  }
+}  
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1 !important;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+}
+
+.toggle-input:not(checked) ~ .mega-menu {
+  display: none;
+  height: 0%;
+}
+
+.toggle-input:checked ~ .mega-menu {
+  animation: floating-selector-menu 0.5s;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: block;
+}
+
+/******* HEADER-PAGE *******/
+
+.headerPage {
+  background-image: url("/headerPage.png");
+  background-repeat: no-repeat;
+}
+
+.related {
+  background-image: url("/related-bg.png");
+  background-repeat: no-repeat;
+}
+
+
+/******* HOME-PAGE *******/
+
+.header-homePage{
+  height: 83vh;
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+  background-size: cover;
+}
+
+.bg-product-img{
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+  background-size: cover;
+}
+
+/****** ANNOTED-IMAGE ******/
+
+.description > p {
+  line-height: 1.625;
+  padding-top: 18px;
+}
+
+.description > ul {
+  line-height: 1.625;
+  padding-top: 18px;
+}
+
+/****** AVATAR ******/
+.avatar{
+  transition: all .5s ease;
+}
+.avatar:hover{
+  border: 1px solid #FF6303;
+}
+.avatar:hover .nomPrenom-avatar{
+  color: #FF6303;
+}
+.avatar:hover  .link-avatar{
+  display: flex;
+}
+
+.link-avatar-zone{
+  min-height: 50px;
+}
+
+/******* BLOG ******/
+
+.lien-article {    
+  transition: all .5s ease-out;
+}
+
+.lien-article:hover {    
+  padding: 15px 30px;
+}
+
+
+/****** CAROUSEL ******/
+.container-carousel{
+  max-width: 502px;
+}
+.image-wrapper{
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.currentImg-carousel{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.img-carousel-view > div {
+  height: 100%;
+}
+
+
+/******** CONTACT *******/
+
+.contact-card:nth-child(even){
+  border-left: solid 1px #A3A4A8;
+}
+
+/******* STORE ******/
+@keyframes floating-selector{
+  from{
+    height: 0%;
+  }
+  to{
+    height: 40%;
+  }
+}  
+
+.toggle-select:not(checked) ~ .list-select-value {
+  display: none;
+}
+
+.toggle-select:checked ~ .list-select-value {
+  display: block;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  animation: floating-selector 0.5s;
+}
+
+.container-image{
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-top: 100%;
+}
+
+.item-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/******** FOOTER ********/
+
+.link-footer{
+  font: normal normal normal 13px/17px Krub;
+}
+
+.title-categorie-footer{
+  font: normal normal bold 13px/17px Krub;
+}
+
+.text-footer{
+  font: normal normal normal 13px/20px Krub;
+}
+
+
+
+@media screen and (max-width: 639px) { 
+  .contact-card:nth-child(even){
+    border-left: none;
+  }
+  .contact-card:not(:nth-child(1)){
+    border-top: solid 1px #A3A4A8;
+  }
+} 

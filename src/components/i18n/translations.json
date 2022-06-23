@@ -1,0 +1,146 @@
+{
+  "menu_produits": {
+    "fr": "Produits",
+    "en": "Products"
+  },
+  "menu_decouvrir": {
+    "fr": "Découvrir",
+    "en": "About us"
+  },
+  "menu_revendeurs": {
+    "fr": "Revendeurs",
+    "en": "Resellers"
+  },
+  "menu_actualites": {
+    "fr": "Actualités",
+    "en": "News"
+  },
+  "liste_produits": {
+    "fr": "Liste produits",
+    "en": "List of products"
+  },
+  "categorie_produits": {
+    "fr": "Catégories de produits",
+    "en": "Categories"
+  },
+  "accueil": {
+    "fr": "Accueil",
+    "en": "Home"
+  },
+  "liste_articles": {
+    "fr": "Liste des articles",
+    "en": "List of posts"
+  },
+  "nous_contacter": {
+    "fr": "Nous contacter",
+    "en": "Contact us"
+  },
+  "placeholder_barre_recherche": {
+    "fr": "Tapez le nom du produit, une référence, ...",
+    "en": "Type the name of the product, a reference, ..."
+  },
+  "titre_section_blog_homepage": {
+    "fr": "NOS DERNIÈRES ACTUALITÉS",
+    "en": "OUR LATEST NEWS"
+  },
+  "lire_plus_blog": {
+    "fr": "Lire plus",
+    "en": "Read more"
+  },
+  "description_footer": {
+    "fr": "La marque ROK Fishing Performance est née d’un constat: l’attente des pêcheurs est de plus en plus forte pour des produits innovants, de qualité, bien conçus, et à des prix accessibles.",
+    "en": "The ROK Fishing Performance brand was born from an observation: fishermen's expectations are more and more strong for innovative, quality, well-designed products at affordable prices."
+  },
+  "titre_produits_footer": {
+    "fr": "Nos Produits",
+    "en": "Our Products"
+  },
+  "titre_decouvrir_footer": {
+    "fr": "Découvir",
+    "en": "Discover"
+  },
+  "titre_blog_footer": {
+    "fr": "Actualités",
+    "en": "News"
+  },
+  "titre_revendeurs_footer": {
+    "fr": "Revendeurs",
+    "en": "Resellers"
+  },
+  "footer_text":{
+    "fr": "Copyright © 2019-2021. Tous droits réservés",
+    "en": "Copyright © 2019-2021. All rights reserved"
+  },
+  "titre_revendeurs": {
+    "fr": "NOS MAGASINS",
+    "en": "OUR STORES"
+  },
+  "description_revendeurs": {
+    "fr": "Trouvez les magasins près de chez vous",
+    "en": "Find stores near you"
+  },
+  "placeholder_barre_recherche_revendeurs": {
+    "fr": "Rechercher un code postal ...",
+    "en": "Search for a postal code ..."
+  },
+  "titre_partenaires": {
+    "fr": "NOS PARTENAIRES",
+    "en": "OUR PARTNERS"
+  },
+  "description_partenaires": {
+    "fr": "Retrouvez également nos produit chez nos partenaires e-commerce.",
+    "en": "You can also find our products at our e-commerce partners."
+  },
+  "francais":{
+    "fr": "Français",
+    "en": "French"
+  },
+  "anglais":{
+    "fr": "Anglais",
+    "en": "English"
+  },
+  "label_trie": {
+    "fr" : "Trier par :",
+    "en" : "Sort by :"
+  },
+  "popularite_trie": {
+    "fr" : "Popularité",
+    "en" : "Popularity"
+  },
+  "alphabetique_az_trie":{
+    "fr" : "Alphabétique - A-Z",
+    "en" : "Alphabetical - A-Z"
+  },
+  "alphabetique_za_trie":{
+    "fr" : "Alphabétique - Z-A",
+    "en" : "Alphabetical - Z-A"
+  },
+  "precedent_article_blog":{
+    "fr" : "Article précédent",
+    "en" : "Previous article"
+  },
+  "suivant_article_blog":{
+    "fr" : "Article suivant",
+    "en" : "Next article"
+  },
+  "aucun_produits": {
+    "fr" : "Aucun produit en lien avec votre recheche ...",
+    "en" : "No products related to your research"
+  },
+  "aucune_adresse": {
+    "fr" : "Aucun résultat en lien avec votre recherche ...",
+    "en" : "No results related to your search ... "
+  },
+  "categorie_select": {
+    "fr" : "Catégorie",
+    "en" : "Category"
+  },
+  "bouton_list_revendeurs":{
+    "fr" : "Liste",
+    "en" : "List"
+  },
+  "bouton_carte_revendeurs":{
+    "fr" : "Carte",
+    "en" : "Map"
+  }
+}
